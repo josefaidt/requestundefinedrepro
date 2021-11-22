@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "requestundefinedrepr7e1e6625": {}
+        "requestundefinedrepr7e1e6625": {},
+        "true": {}
       },
       "hosting": {
         "amplifyhosting": {
