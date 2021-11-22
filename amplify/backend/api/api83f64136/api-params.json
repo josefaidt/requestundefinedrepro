@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/hello",
+      "lambdaFunction": "requestundefinedrepr5701cba6",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/hello"
+    }
+  ],
+  "resourceName": "api83f64136",
+  "apiName": "api83f64136",
+  "functionArns": [
+    {
+      "lambdaFunction": "requestundefinedrepr5701cba6"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-requestundefinedrepr-dev-134046-authRole",
+    "unAuthRoleName": "amplify-requestundefinedrepr-dev-134046-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "requestundefinedrepr5701cba6",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "requestundefinedrepro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josefaidt/requestundefinedrepro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josefaidt/requestundefinedrepro/issues"
+  },
+  "homepage": "https://github.com/josefaidt/requestundefinedrepro#readme",
+  "dependencies": {
+    "@aws-amplify/ui-react": "^2.0.0",
+    "aws-amplify": "^4.3.8",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
