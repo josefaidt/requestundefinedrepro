@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { API } from 'aws-amplify'
 import awsConfig from '../aws-exports'
-const [{ name: API_NAME }] = awsConfig.aws_custom_cloud_logic
+const [{ name: API_NAME }] = awsConfig.aws_cloud_logic_custom
 
 async function get(path, options = { response: true }) {
   return await API.get(path, options)
