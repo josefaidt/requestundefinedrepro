@@ -3,6 +3,7 @@ backend:
   phases:
     prebuild:
       commands:
+        - nvm install
         - npm i -g @aws-amplify/cli
     build:
       commands:
