@@ -4,7 +4,7 @@ import awsConfig from '../aws-exports'
 const [{ name: API_NAME }] = awsConfig.aws_cloud_logic_custom
 
 async function get(path, options = { response: true }) {
-  return await API.get(path, options)
+  return await API.get(API_NAME, path, options)
 }
 
 export default function HomePage(props) {
