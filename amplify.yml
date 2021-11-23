@@ -4,7 +4,8 @@ backend:
     prebuild:
       commands:
         - nvm install
-        - npm i -g @aws-amplify/cli
+        # - npm i -g @aws-amplify/cli
+        - yarn global add @aws-amplify/cli
     build:
       commands:
         - '# Execute Amplify CLI with the helper script'
