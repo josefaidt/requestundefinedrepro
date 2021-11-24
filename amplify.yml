@@ -30,12 +30,12 @@ test:
     preTest:
       commands:
         - echo 'pre test'
-    test:
+    postTest:
       commands:
         - exit 1
   artifacts:
-    baseDirectory: cypress
-    configFilePath: '**/mochawesome.json'
+    baseDirectory: .
+    configFilePath: '**/package.json'
     files:
       - '**/*.png'
       - '**/*.mp4'
