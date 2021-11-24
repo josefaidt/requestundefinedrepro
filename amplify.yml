@@ -27,6 +27,15 @@ frontend:
       - node_modules/**/*
 test:
   phases:
+    preTest:
+      commands:
+        - echo 'pre test'
     test:
       commands:
         - exit 1
+  artifacts:
+    baseDirectory: cypress
+    configFilePath: '**/mochawesome.json'
+    files:
+      - '**/*.png'
+      - '**/*.mp4'
